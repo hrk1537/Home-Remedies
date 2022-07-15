@@ -1,0 +1,202 @@
+/*NAVIGATION BAR*/
+#new{
+	float: left;
+	font-family: serif;
+	color: white;
+	font-size: 25px;
+	margin-left: 20px;
+}
+
+.topnav{
+			overflow: hidden;
+            top: 0;
+            width: 100%;
+            box-sizing: border-box; 
+            background-color: #000106;
+            position: sticky;         
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.6); 
+             }
+		.topnav a{
+			float: right;
+
+		  }
+		.topnav a{
+			 display: block;
+             color: white;
+             text-align: left;
+             padding: 10px 20px;
+             text-decoration: none;
+             margin-top: 20px;
+             font-weight: 500;
+		    }
+		.topnav a:hover{
+			background-color: #C71A0C;
+		    border-radius: 10px;
+		   } 
+		
+/*SIGN UP/SIGN IN FORM*/
+#Signupform{
+	margin: 0;
+	padding: 0;
+	background: #efefef;
+	font-size: 16px;
+	color: red;
+	font-family: sans-serif;
+	font-weight: 300;
+
+}
+#login-box{
+	position: relative;
+	margin: 5% auto;
+	height: 400px;
+	width: 600px;
+	background: #fff;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
+}
+#login-box1{
+	position: relative;
+	margin: 2% auto;
+	height: 500px;
+	width: 350px;
+	background: #fff;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
+}
+.left-box{
+	position: absolute;
+	top: 0;
+	left: 0;
+	box-sizing: border-box;
+	padding: 40px;
+	width: 300px;
+	height: 400px;
+}
+.left-box1{
+	position: absolute;
+	top: 0;
+	left: 40px;
+	box-sizing: border-box;
+	padding: 40px;
+	width: 300px;
+	height: 400px;
+}
+.signbutton{
+	height: 30px;
+}
+h1{
+	margin: 0 0 20px 0;
+	font-weight: 300;
+	font-size: 28px;
+}
+
+
+.right-box{
+	position: absolute;
+	top: 0;
+	right: 0;
+	box-sizing: border-box;
+	padding: 40px;
+	width: 300px;
+	height: 400px;
+	background-image: url("sign-up.jpg");
+	background-size: cover;
+	background-position: center;
+}
+.or{
+	position: absolute;
+	top: 180px;
+	left: 280px;
+	width: 40px;
+	height: 40px;
+	background: #efefef;
+	border-radius: 50%;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
+	line-height: 40px;
+	text-align: center;
+}		
+.right-box .signinwith
+{
+display: block;
+margin-bottom: 40px;
+font-size: 28px;
+color: #fff;
+text-align: center;
+text-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
+}	 
+button.social{
+	margin-bottom: 20px;
+	width: 220px;
+	height: 36px;
+	border: none;
+	border-radius: 10px;
+	color: #fff;
+	font-family: sans-serif;
+	font-weight: 500;
+	cursor: pointer;
+}
+.facebook{
+	background: #32508e;
+}
+.twitter{
+	background: #55acee;
+}
+.google{
+	background: #dd4b39;
+}
+
+/*CARD AND CONTAINER*/
+.card{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    width: 20%;
+    border-radius: 5px;
+    margin: 50px 0 0 50px;
+    float: left;
+}
+.card:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+img {
+    border-radius: 5px 5px 0 0;
+    max-width: 100%;
+    max-height: 100%;
+    
+}
+.container{
+    padding: 2px 16px;
+    position: relative;
+}
+.responsive{
+	width:300px; 
+	height:250px;
+}
+	
+.cardhover{
+	text-decoration: none;
+	color: black;
+}	
+.cardhover:hover{
+	color: gray;
+}	
+.contact{
+	margin: 60px 500px 100px 400px;
+	font-size: 20px;
+}	
+
+.heading{
+	color: #0d47a1;
+}
+.heading:hover{
+	color: #009688;
+}
+
+.anchor{
+	text-decoration: none;
+}
+.contpara{
+	font-size: 16px;
+	font-weight: 600;
+}
+.fronthead{
+	font-size: 50px;
+	text-align: center;
+	margin-top: 30px;
+}
